@@ -15,6 +15,12 @@ public class ejemplo1 {
         badFuction(sier);
         System.out.println(sier);
 
+        System.out.println("//////////////");
+        MutablePerso_2 sinuhe = new MutablePerson_2(sierEmail);
+        System.out.println(sinuhe);
+        otherBadFunction(sinuhe);
+        System.out.println(sinuhe);
+
     }
 
 }
